@@ -1,0 +1,47 @@
+Notebook Store – Summary Report (Sample)
+Generated At: 2025-10-03 10:15:54 (+07:00)
+App Version: 1.0
+Endianness: Little-Endian
+Encoding: UTF-8 (fixed-length)
+
++------------+--------+------------+------------------------+------------+----------------+------+------------+----------+------+
+|NotebookID  |CusID   |Tel         |Address                 |Brand       |Serial          |Year  |Price (THB) |Status    |Sold  |
++------------+--------+------------+------------------------+------------+----------------+------+------------+----------+------+
+|        1001|        |            |                        |Apple       |APLE-1234       |  2025|   900000.00|Active    |No    |
+|        1002|    1002|0981237684  |LOPBURI                 |Asus        |ASSP-1002       |  2024|    24000.00|Sold Out  |Yes   |
+|        1003|        |            |                        |DELL        |DLLE-0913       |  2021|    20000.00|Active    |No    |
+|        1004|        |            |                        |HP          |HPEE-1209       |  2011|    10000.00|Active    |No    |
+|        1005|        |            |                        |Microsoft   |MCST-1291       |  2026|  1000000.00|Active    |No    |
+|        1006|        |            |                        |MSI         |MSIQ-1239       |  2021|    45900.00|Active    |No    |
+|        1007|        |            |                        |Asus        |ASSP-0943       |  2025|    90000.00|Active    |No    |
+|        1008|    1001|0981238391  |KMUTNB Prachinburi      |Apple       |APLE-0133       |  2026| 10000000.00|Sold Out  |Yes   |
+|        1009|        |            |                        |Acer        |ACEQ-0000       |  2019|    12299.00|Active    |No    |
+|        1010|        |            |                        |Apple       |APLE-8239       |  2001|     1000.00|Active    |No    |
++------------+--------+------------+------------------------+------------+----------------+------+------------+----------+------+
+
+Summary (เฉพาะสถานะ Active)
+– Total Notebooks (records): 10
+– Active Notebooks: 10
+– Deleted Notebooks: 0
+– Currently Sold: 2
+– Available Now: 8
+
+Price Statistics (THB, Active only):
+– Min : 1000.00
+– Max : 10000000.00
+– Avg : 1210319.90
+
+Notebooks by Brand (Active only):
+– Acer : 1
+– Apple : 3
+– Asus : 2
+– DELL : 1
+– HP : 1
+– MSI : 1
+– Microsoft : 1
+
+Recent Activities:
+[2025-10-03 10:15:52] Update Notebook id=1008
+
+DEBUG: nb_to_cid = {1008: 1001, 1002: 1002}
+DEBUG: cus_map keys = [1001, 1002, 1003]
